@@ -1,10 +1,16 @@
-from __future__ import print_function, division
+"""
+bingo sheet class
+"""
 
+from __future__ import print_function, division
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
-class bingo_card():
+__author__= ['Duncan Campbell']
+__all__ = ['BingoCard']
+
+class BingoCard():
     """
     class to create bingo sheets
     """
@@ -13,7 +19,7 @@ class bingo_card():
         Parameters
         ----------
         phrases : list
-            list of phrases to put into bing squares
+            list of phrases to put into bingo squares
         
         Ncol : int
             number of columns
